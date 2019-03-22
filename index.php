@@ -22,9 +22,10 @@
 			<img src="img/logo.png" alt="User">
 			<h3>Inicio de Sesión</h3>
 			<form class="" action="valida.php" method="post">
-				<input type="text" class="inp" name="user" placeholder="Usuario">
+				<input type="text" class="inp" name="user" placeholder="Usuario" required>
+
 				<br>
-				<input type="password" class="inp" name="pass" placeholder="Contraseña">
+				<input type="password" class="inp" name="pass" placeholder="Contraseña" required>
 				<br>
 				<input type="submit" class="btn" name="Ingresar" value="Enviar">
                               
