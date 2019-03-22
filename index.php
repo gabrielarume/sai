@@ -21,7 +21,7 @@
 		<article class="fondo">
 			<img src="img/logo.png" alt="User">
 			<h3>Inicio de Sesión</h3>
-			<form class="" action="#" method="post">
+			<form class="" action="valida.php" method="post">
 				<input type="text" class="inp" name="user" placeholder="Usuario">
 				<br>
 				<input type="password" class="inp" name="pass" placeholder="Contraseña">
