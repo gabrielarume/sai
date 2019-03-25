@@ -12,31 +12,24 @@
          <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	<link rel="stylesheet" href="stilo.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez|Pathway+Gothic+One" rel="stylesheet">
-   
- 
 </head>
 <body>
-        <div class="contenedor">
-	<div class="login">
-		<article class="fondo">
-			<img src="img/logo.png" alt="User">
+	<div class="contenedor">
+    <div class="login-box">
+	    <img src="img/logo.png" class="avatar" alt="User">
 			<h3>Inicio de Sesión</h3>
-			<form class="" action="valida.php" method="post">
-				<input type="text" class="inp" name="user" placeholder="Usuario" required>
-
+			<form action="valida.php" method="post">
+				<input type="text"  name="user" placeholder="Usuario" required>
+				 <br>
+				<input type="password" name="pass" placeholder="Contraseña" required>
 				<br>
-				<input type="password" class="inp" name="pass" placeholder="Contraseña" required>
-				<br>
-				<input type="submit" class="btn" name="Ingresar" value="Enviar">
-                              
-
-			</form>
-		</article>
-
+				<input type="submit" name="Ingresar" value="Enviar">
+                </form>
+	
               <div class="g-recaptcha" data-sitekey="6LcMa5kUAAAAAN0Fx9lSDT71BIW7OVqUHfCKZsxd" data-theme="dark"></div>
 
 	</div>
-	</div>
+   </div>
 
   
 </body>
