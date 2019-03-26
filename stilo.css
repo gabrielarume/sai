@@ -67,15 +67,15 @@ h3{
     border: none;
     outline: none;
     height: 40px;
-    background-color: rgba(255, 255, 255);
-    color: #245B82; 
+    background-color:#245B82;
+    color:rgba(255, 255, 255); 
     font-size: 18px;
     border-radius: 20px;
 }
 .login-box input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #245B82;
+    background-color: rgba(36, 91, 130, .8) ;
     color: #fff;
 }
 
