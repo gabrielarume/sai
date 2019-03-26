@@ -19,14 +19,14 @@
 	    <img src="img/logo.png" class="avatar" alt="User">
 			<h3>Inicio de Sesión</h3>
 			<form action="valida.php" method="post">
-				<input type="text"  name="user" placeholder="Usuario" required>
+				<input type="text"  name="user" placeholder="Usuario" required pattern=[a-z]{5,15} title="No se permiten números y caracteres especiales">
 				 <br>
 				<input type="password" name="pass" placeholder="Contraseña" required>
 				<br>
 				<input type="submit" name="Ingresar" value="Enviar">
                 </form>
 	
-              <div class="g-recaptcha" data-sitekey="6LcMa5kUAAAAAN0Fx9lSDT71BIW7OVqUHfCKZsxd" data-theme="dark"></div>
+              <div class="g-recaptcha" data-sitekey="6LcMa5kUAAAAAN0Fx9lSDT71BIW7OVqUHfCKZsxd" data-theme=""></div>
 
 	</div>
    </div>
