@@ -30,9 +30,9 @@
 	    <img src="img/logo.png" class="avatar" alt="User">
 			<h3>Inicio de Sesión</h3>
 			<form action="valida.php" method="post">
-				<input type="text"  name="user" placeholder="Usuario" required pattern=[a-z]{5,15} title="No se permiten números y caracteres especiales">
+				<input type="text"  name="username" placeholder="Usuario" required pattern=[a-z]{5,15} title="No se permiten números y caracteres especiales">
 				 <br>
-				<input type="password" name="pass" placeholder="Contraseña" required>
+				<input type="password" name="password" placeholder="Contraseña" required>
 				<br>
 				<input type="submit" name="Ingresar" value="Enviar">
                 </form>
