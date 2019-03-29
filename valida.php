@@ -12,7 +12,7 @@
 	ldap_set_option($ldap_com, LDAP_OPT_PROTOCOL_VERSION, 3);
 
 	if (ldap_bind($ldap_con, $ldap_dn, $ldap_password)){
-		echo "Inicio de sesión valida";
+		include 'menu.php';
 	}else{ 
 		echo "Inicio de sesión no valida";
  	}
